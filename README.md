@@ -1,1 +1,2 @@
 # COMPARE-THE-TRIPLETS
+•	This solves the problem by comparing two 3-element integer vectors (scores for Alice and Bob) element-wise, awarding points for higher values and ignoring ties. It uses utility functions (ltrim, rtrim, split) to parse two input lines of space-separated numbers into vectors. The compareTriplets function loops through the vectors, increments scores accordingly, and returns a vector with the final scores. Main reads inputs, calls the function, and outputs the results to a file with a space separator.
